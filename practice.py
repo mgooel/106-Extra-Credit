@@ -212,4 +212,7 @@ def f(list):
 	return [x[0] for x in list if 'z' in x] 
 test.testEqual(f(['Amazing', 'corny', 'zany']), ['A', 'z'])
 
-
+#While studying i went through the textbook and redid some of the manuel accumulation problems. See if you can go back on my work, i think it will help you study!
+x=raw_input("enter word")
+things4=map(lambda x: x + "-" + x + "-", x)
+print "".join(things4)
